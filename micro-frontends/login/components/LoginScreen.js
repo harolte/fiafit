@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TextInput, TouchableOpacity, ImageBackground, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { FontAwesome } from '@expo/vector-icons'; // importando librerias para los iconos de redes sociales
+
 import styles from './styles';  
 
 
@@ -11,12 +11,7 @@ export default function LoginScreen() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.navbar}>
-        <Image source={require('../assets/fiafit-logo.png')} style={styles.logo} />
-        <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Text style={styles.navbarText}>Regresar</Text>
-        </TouchableOpacity>
-      </View>
+
       <ImageBackground
         source={require('../assets/background.png')}
         style={styles.backgroundImage}

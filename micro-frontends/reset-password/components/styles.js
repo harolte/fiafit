@@ -10,7 +10,7 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   container: {
-    backgroundColor: 'rgba(255, 255, 255, 0.9)',
+    backgroundColor: 'rgba(243, 244, 247, 0.8)',
     padding: 20,
     borderRadius: 10,
     alignItems: 'center',
@@ -19,6 +19,7 @@ export default StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
+    color: '#8c1c13',
   },
   subtitle: {
     fontSize: 16,
@@ -37,7 +38,7 @@ export default StyleSheet.create({
   button: {
     width: 250,
     height: 40,
-    backgroundColor: '#c00',
+    backgroundColor: '#B5121C',
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 5,

@@ -10,7 +10,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: 10,
-    backgroundColor: '#000',
+    backgroundColor: '#000000',
   },
   navbarText: {
     fontSize: 20,
@@ -39,7 +39,7 @@ export default StyleSheet.create({
   top: '70px',
   left: '41%',
   borderRadius: 10,
-  backgroundColor: 'rgba(255, 255, 255, 0.8)',
+  backgroundColor: 'rgba(243, 244, 247, 0.8)',
   maxWidth: '100%',  
   display: 'flex',
   flexDirection: 'column',
@@ -57,7 +57,8 @@ export default StyleSheet.create({
     marginBottom: 20,
     textAlign: 'center',
     fontWeight: 'bold', // Negrita
-    fontFamily: 'Times New Roman, Times, serif' // Fuente Times New Roman
+    fontFamily: 'Times New Roman, Times, serif', // Fuente Times New Roman
+    color: '#8c1c13', // Color de la letra (negro en este caso)
   },
 
   loginTitle2: {
@@ -80,7 +81,7 @@ export default StyleSheet.create({
   },
   button: {
     margin: 8,
-    backgroundColor: '#ff0000',
+    backgroundColor: '#B5121C',
     padding: 10,
     borderRadius: 5,
     

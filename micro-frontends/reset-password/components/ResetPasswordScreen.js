@@ -10,12 +10,13 @@ export default function ResetPasswordScreen(){
   return (
     <ImageBackground source={require('../assets/background.png')} style={styles.background}>
       <View style={styles.container}>
+
         <Text style={styles.title}>RESTABLECER CONTRASEÑA</Text>
         
         <Text style={styles.subtitle}>Ingrese su usuario para restablecer contraseña</Text>
         
         <TextInput 
-          placeholder="Usuario" 
+          //placeholder="Usuario" 
           style={styles.input} 
           placeholderTextColor="#000" 
         />

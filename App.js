@@ -6,9 +6,8 @@ import  ResetPasswordScreen  from './micro-frontends/reset-password/components/R
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Footer from './micro-frontends/Componentes/Footer';
+import Header from './micro-frontends/Componentes/Header';
 //import Register from './micro-frontends/register';
-
-
 
 
 
@@ -18,11 +17,13 @@ export default function App() {
   return (
     <NavigationContainer>
       <View style={styles.container}>
+      <Header />
         <Stack.Navigator initialRouteName="Login">
           <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false }} />
           <Stack.Screen name="Dashboard" component={DashboardScreen} options={{headerShown: false }} />
           <Stack.Screen name="ResetPassword" component={ResetPasswordScreen} options={{headerShown: false }} />
         </Stack.Navigator>
+       
         <Footer />
       </View>
     </NavigationContainer>

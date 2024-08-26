@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { FontAwesome } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';// importando librerias para los iconos de redes sociales
 
 const Footer = () => {
   return (
     <View style={styles.footer}>
-      <Text style={styles.copyright}>© Gimnasio 2024</Text>
+      <Text style={styles.copyright}>Gimnasio © 2024</Text>
       <View style={styles.socialIcons}>
         <FontAwesome name="facebook" size={24} color="white" style={styles.icon} />
         <FontAwesome name="instagram" size={24} color="white" style={styles.icon} />
@@ -19,7 +19,7 @@ const Footer = () => {
 
 const styles = StyleSheet.create({
     footer: {
-      backgroundColor: '#333',
+      backgroundColor: '#000',
       padding: 10,
       flexDirection: 'row',
       justifyContent: 'space-between',
